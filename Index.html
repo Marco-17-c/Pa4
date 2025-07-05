@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre el mundo</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="Estilos.css" />
+     <script>
+      $(function(){
+        $(".slider").bxSlider({
+            auto: true,
+            autoControls: true,
+            stopAutoOnClick: true,
+            pager: true,
+            slideWidth: 0,
+            captions:true
+        });
+      });
+    </script>
+</head>
+<body>
+ <div class="slider">
+    <img src="Imagenes/Banner1.jpg" width="640" height="320" />
+    <img src="Imagenes/NEWBanner.jpg" width="640" height="320" />
+    <img src="Imagenes/NEWBANNER2.webp" width="640" height="320" />
+ </div>
+ <h2>Descubre el mundo con nosotros </h2>
+<div class="contenedor">
+<div class="destinos">
+        <h3>Destinos</h3>
+        <p>Paris,la ciudad del amor ofrece monumentos iconicos,exquisita gastronomia y un ambiente inolvidable que enamora a cada visitante</p>
+        <img src="Imagenes/osen-eiffel-tower-paris-autumn-cityscape-leaves-parizh-franc.webp"  width="400  " height="  300  "    >
+</div>
+<div class="experiencias">
+        <h3>Experiencias</h3>
+        <p>Las Maldivas son el destino perfecto para quienes buscan playas paradisiacas,aguas cristalina y una experiencia de relajacion total</p>
+        <img src="Imagenes/maldivas-playas-1.jpg"  width="400  " height="300"     >
+</div>
+<div class="registrate">
+    <h3>Registrate </h3>
+        <form name="formulario" method="get">
+    <div>
+    Nombre <br/> <input type="text" name="Nombre" placeholder="Ingrese su usuario" />
+    </div>
+    <div>
+    Email <br/> <input type="text" name="Email" placeholder="Ingrese su correo" />
+    </div>
+    <div>
+    <br/> <input type="submit" name="enviar" value="Registrarse" />
+    </div>
+</div>
+</div>
+<div class="pie">
+    <p>© 2025 ExplorandoMundo-Agencia de Viajes</p>
+    <p>Direccion: Calle Ficticia 123,Ciudad Ejemplo</p>
+    <i class="fa-brands fa-instagram"></i>
+</div>
+</body>
+</html>
